@@ -1,0 +1,4 @@
+#include <bits/stdc++.h>
+#define int long long
+using namespace std;
+int32_t main(){long long o_f2f8cf626e302f0bd6d71f9b1bb372bd;cin>>o_f2f8cf626e302f0bd6d71f9b1bb372bd;while (o_f2f8cf626e302f0bd6d71f9b1bb372bd--){long long o_f490f1f239b4bd63b1d32d6bf955c6bc;cin>>o_f490f1f239b4bd63b1d32d6bf955c6bc;o_f490f1f239b4bd63b1d32d6bf955c6bc--;cout<<((0x0000000000000002 + 0x0000000000000201 + 0x0000000000000801 - 0x0000000000000A03) << o_f490f1f239b4bd63b1d32d6bf955c6bc)<<endl;};return (0x0000000000000000 + 0x0000000000000200 + 0x0000000000000800 - 0x0000000000000A00);};
