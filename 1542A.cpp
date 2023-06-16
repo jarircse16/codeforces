@@ -1,43 +1,27 @@
-#include<bits\stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-
 int main()
 {
-    int t,m,n,s=0,oddc=0;
+    int t;
     cin>>t;
     while(t--)
     {
+        int n,oc=0,ec=0;
         cin>>n;
-        int s=0;
-        m=n*2;
-        int a[m];
-
-        for(int i=0;i<m;i++)
-
-        {
+        int a[n*2];
+        for(int i=0;i<n*2;i++)
             cin>>a[i];
-            s+=a[i];
-            if(a[i]%2==1)
-                oddc++;
-
-        }
-
-        if(n==1)
-
-        {
-            if(s%2==1)
-                cout<<"Yes"<<endl;
-            else
-                cout<<"No"<<endl;
-        }
-
+        for(int i=0;i<n*2;i++)
+            {
+                if(a[i]%2==0)
+                    oc++;
+                else
+                    ec++;
+            }
+        if(oc==ec)
+            cout<<"YES"<<endl;
         else
-
-        {
-            if(oddc==n)
-                cout<<"Yes"<<endl;
-            else
-                cout<<"No"<<endl;
-        }
-}
+            cout<<"NO"<<endl;
+    }
+    return 0;
 }
